@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valteni Rocha</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <p id="resultado"></p>
+    <script src="script/script.js"></script>
+    <p id="resultado"></p>
+    <script src="script.js"></script>
+    <aside>
+        <div class="foto">
+            <img src="imagem/valteniperfil.jpg.jpg" alt="">
+        </div>
+        <p class="intro">
+         Eu sou <em>Valteni Rocha</em> barbeiro na Barbearia Bate Papo. </em>
+        </p>
+        <ul class="redes">
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+        </ul>
+        <div class="info">
+            <p>
+                © Todos os direitos reservados | Valteni Rocha
+            </p>
+        </div>
+    </aside>
+    <main>
+        <div class="formacao">
+            <h2>Sobre mim</h2>
+                <p>Sou um barbeiro apaixonado pela arte de transformar visuais e elevar a autoestima dos meus clientes.
+                Com anos de experiência, aprimorei minhas habilidades em cortes de cabelo e barba, sempre buscando as últimas
+                tendências e técnicas. Meu compromisso é fornecer uma experiência única e personalizada a cada um, garantindo 
+                que cada cliente saia da cadeira com confiança renovada e um visual impecável...
+                </p>
+            
+            <h2>Dicas para aumentar a autoestima masculina</h2>
+            <p>Muitas vezes, o problema da autoestima está relacionado à aparência. Homens que não cuidam do corpo, pele, 
+            cabelo e barba porque não tem tempo ou porque acham besteira, podem acabar se sentindo os efeitos colaterais 
+            desse descaso. É importante se olhar no espelho e se sentir bem com a imagem refletida, mas isso não significa
+            que você precise passar horas na academia ou passando produtos na pele. Significa apenas que você deve fazer 
+            pequenas coisas no dia a dia que te ajudem a se sentir mais saudável, feliz e autoconfiante. Para isso, você 
+            pode experimentar um novo corte de cabelo, começar a fazer exercícios físicos e por aí vai. O importante é se 
+            sentir bem e não se deixar levar pelo looping da rotina que pode acabar minando os cuidados pessoais do seu dia
+            a dia.</p>
+        </div>
+        <div >
+            <h2>Confira meu trabalho</h2>
+            <div class="trabalhos">
+                <div class="card">
+                    <img src="imagem/valteni.barba.jpg.jpg">
+                    <p class="titulo">Barboterapia</p>
+                    <p class="desc">A barboterapia é um tratamento completo focado na barba para que ela cresça muito mais
+                     forte e saudável. É um conceito de cuidado total e profundo que tem como objetivo promover o relaxamento
+                      e a saúde, envolvendo desde cuidados específicos até o corte dos fios.</p>
+                </div>
+                <div class="card">
+                    <img src="imagem/corte1.jpg" alt="">
+                    <p class="titulo">Corte adulto</p>
+                    <p class="desc">Seja para um visual clássico, moderno ou ousado, o corte de cabelo masculino 
+                        tem o poder de transmitir personalidade e estilo. Desde os tempos mais remotos,
+                         os homens têm usado o cabelo como uma forma de expressão, e hoje em dia, 
+                        as opções são vastas e adaptáveis a todos os gostos. </p>
+                </div>
+                <div class="card">
+                    <img src="imagem/corte2.jpg" alt="">
+                    <p class="titulo">Corte Infantil</p>
+                    <p class="desc">Para deixar o menino estiloso, nada melhor que um bom corte de 
+                        cabelo para compor o look do menino e deixa-lo ainda mais charmoso.</p>
+                </div>
+            </div>
+        </div>
+
+       
+        <div class="contato">
+            <h2>Entre em contato agora mesmo</h2>
+            <body>
+                <form action="">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required> 
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="WhatsApp">WhatsApp:</label>
+                    <input type="number" id="WhatsApp" name="WhatsApp" required>
+            
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" required></textarea>
+
+                    <button type="button" onclick="enviarFormulario()">Enviar</button>
+                </form>
+
+        <div id="confirmacaoMensagem" class="hidden">
+            <p>Obrigado pelo seu contato! Responderei em breve.</p>
+        </div>
+
+                <p id="resultado"></p>
+                <script src="script/script.js"></script>
+
+            </body>
+
+        
+        </div>
+        
+            <div class="col-2 ende">
+                <h2>Localização </h2>
+                <p>
+                    Rua Gabriel de Oliveira, n.º 12, Centro
+                    Muriaé, MG 36880-000
+                    Brasil
+                </p>
+                <p>
+                    32  3721-6950
+                </p>
+                <p>
+                    valtenirrrocha@gmail.com
+                </p>
+            </div>
+    </main>
+</body>
+</html>

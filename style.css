@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    display: flex;
+}
+
+aside{
+    width: 30%;
+    height: 100vh;
+    background-image: url('imagem/fotomateriais.jpg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 0 60px 60px;
+    box-sizing: border-box;
+    box-shadow: 5px 0px 7px #131313;
+    position: fixed;
+}
+
+.foto{
+    margin: 0 0 40px 0;
+}
+
+.foto img{
+    border-radius: 50%;
+    border: 2px solid #FFF;
+    width: 200px;
+}
+
+.intro{
+    max-width: 350px;
+    color: rgba(255,255,255, .7);
+    font-size: 1.5rem;
+    text-align: right;
+    margin: 40px 0;
+    text-shadow: 2px 2px 2px #000;
+}
+
+aside p em{
+    color: #FFF;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.redes{
+    list-style: none;
+}
+
+.redes li{
+    display: inline-block;
+}
+
+.redes li a{
+    color: #FFF;
+    font-size: 2rem;
+    padding: 10px;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.info{
+   
+    color: #FFF;
+    text-shadow: 2px 2px 2px #000;
+    font-size: .9rem;
+}
+
+main{
+    padding: 100px 60px;
+    margin-left: 30%;
+}
+
+h2{
+    color: #161515;
+    font-weight: 200;
+    line-height: 1.5rem;
+    margin: 40px 0 20px;
+    font-size: 2.3rem;
+}
+
+.formacao p{
+    color: #a2a2a2;
+    font-weight: 400;
+    line-height: 2rem;
+    margin: 0 0 1em 0;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.bt{
+    background-color: transparent;
+    border-radius: 0.35em;
+    border: solid 3px #efefef;
+    color: #787878 !important;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    height: 3.15em;
+    line-height: 2.75em;
+    min-width: 10em;
+    padding: 0 1.5em;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    font-size: 1.3rem;
+}
+
+.trabalhos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.right{
+    float: right;
+}
+
+.card{
+    border: solid 3px #efefef;
+    display: inline-block;
+    margin: 20px 0;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.card .titulo{
+    color: #787878;
+    font-size: 1.4rem;
+    padding: 5px;
+    font-weight: 600;
+}
+
+.card .desc{
+    color: #787878;
+    padding: 5px;
+}
+
+.card img{
+    width: 100px;
+}
+
+input[type="text"], input[type="password"], input[type="email"], select, textarea {
+    background: #efefef;
+    border-radius: 0.35em;
+    border: solid 2px transparent;
+    color: inherit;
+    display: inline-block;
+    padding: 0 0.75em;
+    text-decoration: none;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.row{
+    display: flex;
+}
+
+.col{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+}
+
+.col-2{
+    box-sizing: border-box;
+    width: 50%;
+    padding: 5px;
+}
+
+.flex{
+    display: flex;
+}
+
+.ende{
+    color: #a2a2a2;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.ende p{
+    padding: 8px 0;
+}
+
+.formulario{
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+#confirmacaoMensagem {
+    color: rgb(12, 13, 12);
+    margin-top: 10px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
